@@ -11,6 +11,17 @@
 		B7DC6B8ED185C2BA92B6D60E /* Pods_testesUnitariosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EA4A7F5E8040853110F767 /* Pods_testesUnitariosTests.framework */; };
 		E21A61E52BE149FE00A2670C /* StringUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A61E42BE149FE00A2670C /* StringUtilsTests.swift */; };
 		E21A61E72BE18B6C00A2670C /* BeforeEachAfterEachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A61E62BE18B6C00A2670C /* BeforeEachAfterEachTests.swift */; };
+		E21A61EA2BE27CD000A2670C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A61E92BE27CD000A2670C /* AccountViewController.swift */; };
+		E21A61EC2BE27CFA00A2670C /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A61EB2BE27CFA00A2670C /* AccountViewModel.swift */; };
+		E21A61EE2BE27D4000A2670C /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21A61ED2BE27D4000A2670C /* AccountViewController.xib */; };
+		E21A61F02BE27D7B00A2670C /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A61EF2BE27D7B00A2670C /* AccountModel.swift */; };
+		E21A61F22BE27DCA00A2670C /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A61F12BE27DCA00A2670C /* Provider.swift */; };
+		E21A61F42BE27DDC00A2670C /* AsyncProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A61F32BE27DDC00A2670C /* AsyncProcess.swift */; };
+		E2B7F4422BE94415004C3CE8 /* AccountViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7F4412BE94415004C3CE8 /* AccountViewModelSpec.swift */; };
+		E2B7F4442BE95113004C3CE8 /* AccountViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7F4432BE95113004C3CE8 /* AccountViewControllerSpec.swift */; };
+		E2B7F4462BE95880004C3CE8 /* AsyncProcessSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7F4452BE9587F004C3CE8 /* AsyncProcessSpec.swift */; };
+		E2B7F4482BE96F79004C3CE8 /* ProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7F4472BE96F79004C3CE8 /* ProviderMock.swift */; };
+		E2B7F44A2BE97086004C3CE8 /* ProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7F4492BE97086004C3CE8 /* ProviderMock.swift */; };
 		E2F483412BE0623E00A4D69C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F483402BE0623E00A4D69C /* AppDelegate.swift */; };
 		E2F483432BE0623E00A4D69C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F483422BE0623E00A4D69C /* SceneDelegate.swift */; };
 		E2F483452BE0623E00A4D69C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F483442BE0623E00A4D69C /* ViewController.swift */; };
@@ -54,6 +65,17 @@
 		B923927F59DC3DF35FA9A80B /* Pods-testesUnitariosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testesUnitariosTests.debug.xcconfig"; path = "Target Support Files/Pods-testesUnitariosTests/Pods-testesUnitariosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E21A61E42BE149FE00A2670C /* StringUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsTests.swift; sourceTree = "<group>"; };
 		E21A61E62BE18B6C00A2670C /* BeforeEachAfterEachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeEachAfterEachTests.swift; sourceTree = "<group>"; };
+		E21A61E92BE27CD000A2670C /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		E21A61EB2BE27CFA00A2670C /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		E21A61ED2BE27D4000A2670C /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AccountViewController.xib; path = ../../../../../Downloads/Curso/Curso/AccountView/AccountViewController.xib; sourceTree = "<group>"; };
+		E21A61EF2BE27D7B00A2670C /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		E21A61F12BE27DCA00A2670C /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Provider.swift; path = ../../../../Downloads/Curso/Curso/Provider.swift; sourceTree = "<group>"; };
+		E21A61F32BE27DDC00A2670C /* AsyncProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsyncProcess.swift; path = ../../../../Downloads/Curso/Curso/AsyncProcess.swift; sourceTree = "<group>"; };
+		E2B7F4412BE94415004C3CE8 /* AccountViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModelSpec.swift; sourceTree = "<group>"; };
+		E2B7F4432BE95113004C3CE8 /* AccountViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewControllerSpec.swift; sourceTree = "<group>"; };
+		E2B7F4452BE9587F004C3CE8 /* AsyncProcessSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncProcessSpec.swift; sourceTree = "<group>"; };
+		E2B7F4472BE96F79004C3CE8 /* ProviderMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProviderMock.swift; path = ../../../../Downloads/Curso/CursoTests/ProviderMock.swift; sourceTree = "<group>"; };
+		E2B7F4492BE97086004C3CE8 /* ProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderMock.swift; sourceTree = "<group>"; };
 		E2F4833D2BE0623E00A4D69C /* testesUnitarios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testesUnitarios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F483402BE0623E00A4D69C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2F483422BE0623E00A4D69C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +148,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E21A61E82BE27CB100A2670C /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				E21A61E92BE27CD000A2670C /* AccountViewController.swift */,
+				E21A61ED2BE27D4000A2670C /* AccountViewController.xib */,
+				E21A61EB2BE27CFA00A2670C /* AccountViewModel.swift */,
+				E21A61EF2BE27D7B00A2670C /* AccountModel.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
 		E2F483342BE0623E00A4D69C = {
 			isa = PBXGroup;
 			children = (
@@ -159,7 +192,10 @@
 				E2F4834B2BE0624000A4D69C /* LaunchScreen.storyboard */,
 				E2F4834E2BE0624000A4D69C /* Info.plist */,
 				E2F483722BE06D6400A4D69C /* Utils */,
-				E2F483772BE12B8900A4D69C /* AccountBalance.swift */,
+				E21A61E82BE27CB100A2670C /* AccountView */,
+				E21A61F32BE27DDC00A2670C /* AsyncProcess.swift */,
+				E21A61F12BE27DCA00A2670C /* Provider.swift */,
+				E2B7F4472BE96F79004C3CE8 /* ProviderMock.swift */,
 			);
 			path = testesUnitarios;
 			sourceTree = "<group>";
@@ -169,9 +205,13 @@
 			children = (
 				E2F483572BE0624100A4D69C /* testesUnitariosTests.swift */,
 				E2F483752BE06E7E00A4D69C /* StringUtilsSpec.swift */,
+				E2B7F4492BE97086004C3CE8 /* ProviderMock.swift */,
 				E21A61E42BE149FE00A2670C /* StringUtilsTests.swift */,
 				E2F483792BE12BE800A4D69C /* AccountBalanceSpec.swift */,
 				E21A61E62BE18B6C00A2670C /* BeforeEachAfterEachTests.swift */,
+				E2B7F4412BE94415004C3CE8 /* AccountViewModelSpec.swift */,
+				E2B7F4432BE95113004C3CE8 /* AccountViewControllerSpec.swift */,
+				E2B7F4452BE9587F004C3CE8 /* AsyncProcessSpec.swift */,
 			);
 			path = testesUnitariosTests;
 			sourceTree = "<group>";
@@ -188,6 +228,7 @@
 		E2F483722BE06D6400A4D69C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E2F483772BE12B8900A4D69C /* AccountBalance.swift */,
 				E2F483732BE06DAE00A4D69C /* StringUtils.swift */,
 			);
 			path = Utils;
@@ -303,6 +344,7 @@
 			files = (
 				E2F4834A2BE0624000A4D69C /* Assets.xcassets in Resources */,
 				E2F4834D2BE0624000A4D69C /* Base in Resources */,
+				E21A61EE2BE27D4000A2670C /* AccountViewController.xib in Resources */,
 				E2F483482BE0623E00A4D69C /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,7 +457,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2F483742BE06DAE00A4D69C /* StringUtils.swift in Sources */,
+				E21A61EC2BE27CFA00A2670C /* AccountViewModel.swift in Sources */,
+				E21A61F42BE27DDC00A2670C /* AsyncProcess.swift in Sources */,
+				E21A61EA2BE27CD000A2670C /* AccountViewController.swift in Sources */,
+				E21A61F02BE27D7B00A2670C /* AccountModel.swift in Sources */,
+				E21A61F22BE27DCA00A2670C /* Provider.swift in Sources */,
 				E2F483452BE0623E00A4D69C /* ViewController.swift in Sources */,
+				E2B7F4482BE96F79004C3CE8 /* ProviderMock.swift in Sources */,
 				E2F483412BE0623E00A4D69C /* AppDelegate.swift in Sources */,
 				E2F483432BE0623E00A4D69C /* SceneDelegate.swift in Sources */,
 				E2F483782BE12B8900A4D69C /* AccountBalance.swift in Sources */,
@@ -427,9 +475,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E21A61E52BE149FE00A2670C /* StringUtilsTests.swift in Sources */,
+				E2B7F4462BE95880004C3CE8 /* AsyncProcessSpec.swift in Sources */,
 				E2F483712BE064AC00A4D69C /* testesUnitariosTests.swift in Sources */,
+				E2B7F44A2BE97086004C3CE8 /* ProviderMock.swift in Sources */,
 				E2F483762BE06E7E00A4D69C /* StringUtilsSpec.swift in Sources */,
+				E2B7F4422BE94415004C3CE8 /* AccountViewModelSpec.swift in Sources */,
 				E21A61E72BE18B6C00A2670C /* BeforeEachAfterEachTests.swift in Sources */,
+				E2B7F4442BE95113004C3CE8 /* AccountViewControllerSpec.swift in Sources */,
 				E2F4837A2BE12BE800A4D69C /* AccountBalanceSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
